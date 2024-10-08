@@ -36,6 +36,10 @@ Route::get('/', function (){
     return Inertia::render('HomePage');
 });
 
+Route::get('/islandmexico', function (){
+    return Inertia::render('HomePage');
+});
+
 Route::get('/cart', function (){
     return Inertia::render('Cart');
 });
