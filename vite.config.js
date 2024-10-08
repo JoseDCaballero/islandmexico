@@ -17,5 +17,15 @@ export default defineConfig({
             },
         }),
     ],
-    base: 'https://JoseDCaballero.github.io/islandmexico/'
+    base: 'https://JoseDCaballero.github.io/islandmexico/',
+    resolve: {
+        alias: {
+            ziggy: 'vendor/tightenco/ziggy/dist',
+        },
+    },
+    build: {
+        rollupOptions: {
+            external: ['ziggy'],
+        },
+    },
 });
