@@ -27,5 +27,6 @@ export default defineConfig({
         rollupOptions: {
             external: ['ziggy'],
         },
+        outDir: 'dist',
     },
 });
