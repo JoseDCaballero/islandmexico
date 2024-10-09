@@ -17,7 +17,7 @@ export default defineConfig({
             },
         }),
     ],
-    base: 'https://knight28.me/islandmexico',
+    base: 'http://knight28.me/islandmexico',
     resolve: {
         alias: {
             ziggy: 'vendor/tightenco/ziggy/dist',
